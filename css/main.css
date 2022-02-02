@@ -1,8 +1,12 @@
 body {
-  font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #999999;
   margin: 0;
   padding: 0;
+}
+p{
+  font-weight: 400;
+  font-size: large;
 }
 
 h1,
@@ -11,13 +15,26 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.current{
+  background-color: #fff;
+  border-bottom: solid #000;
 }
 
 .container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+.owner ul li{
+  font-size: large;
+}
+
+.contact-section, input{
+  font-size: large;
 }
 
 img {
